@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Container, Card, CardContent, Typography, Accordion, AccordionSummary, AccordionDetails, Grid } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import './about.css';
+import './About.css';
 
 const About = () => {
     const [expanded, setExpanded] = useState(false);
