@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/gitfKal/',
   plugins: [react()],
+  server: {
+    mimeTypes: {
+      '.jsx': 'application/javascript'
+    }
+  }
 })
